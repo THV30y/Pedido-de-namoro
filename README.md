@@ -38,17 +38,17 @@
 <body>
     <div class="container">
         <h1>Um Pedido de Namoro Especial</h1>
-        <p>Olá Coelhinho 🍎,</p>
+        <p>Olá  Coelhinho 🍎,</p>
         <p>Quero dizer que você ilumina minha vida como ninguém mais.</p>
-        <p>Você aceita namorar esse Raposo?</p>
-        <p class="heart" onclick="mostrarResposta()">❤️</p>
+        <p>Você aceita namorar com esse Raposo?</p>
+        <p class="heart" onclick="mostrarResposta()">🍎</p>
         <button id="nao" onmouseover="mudarPosicao()">Não</button>
         <p id="resposta" style="display: none;"></p>
     </div>
     <script>
         function mostrarResposta() {
             document.getElementById('resposta').style.display = 'block';
-            document.getElementById('resposta').innerHTML = 'Sim! Eu aceito, meu amor. 🍎';
+            document.getElementById('resposta').innerHTML = 'Sim! Eu aceito, Raposo. 🍎';
         }
 
         function mudarPosicao() {
